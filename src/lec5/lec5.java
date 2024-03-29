@@ -28,7 +28,7 @@ public class lec5 {
 		WebElement Username = driver.findElement(By.name("user-name"));
 		WebElement Password = driver.findElement(By.name("password"));
 		WebElement LOGINBUTTON = driver.findElement(By.name("login-button"));
-		Username.sendKeys("standard_user");
+		Username.sendKeys("problem_user");
 		Password.sendKeys("secret_sauce");
 		LOGINBUTTON.click();
 		
